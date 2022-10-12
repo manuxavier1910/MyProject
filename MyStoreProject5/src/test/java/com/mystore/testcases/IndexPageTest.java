@@ -20,6 +20,6 @@ public class IndexPageTest extends BaseClass{
 			String result = indexpage.getStoreTitle();
 			String storeTitle = prop.getProperty("storetitle");
 			Assert.assertEquals(result, storeTitle);
-			Assert.assertTrue(indexpage.validateLogo());
+			Assert.assertFalse(indexpage.validateLogo());
 	}
 }
