@@ -31,5 +31,4 @@ public class LoginPageTest extends BaseClass{
 		Log.info("User Logged in");
 		Log.endTestCase("verifyLoginPage");
 	}
-
 }
