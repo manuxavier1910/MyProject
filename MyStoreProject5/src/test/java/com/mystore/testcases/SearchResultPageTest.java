@@ -23,5 +23,4 @@ public class SearchResultPageTest extends BaseClass{
 		Assert.assertTrue(searchresultpage.isProductAvailable());
 		
 	}
-
 }

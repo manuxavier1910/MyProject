@@ -7,42 +7,15 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="Chrome"/>
     <classes>
-      <class name="com.mystore.testcases.HomePageTest">
-        <methods>
-          <include name="afterSuite"/>
-          <include name="setUp"/>
-          <include name="verifyHomePage"/>
-          <include name="tearDown"/>
-          <include name="loadConfig"/>
-        </methods>
-      </class> <!-- com.mystore.testcases.HomePageTest -->
-      <class name="com.mystore.testcases.E2ETest">
+      <class name="com.mystore.testcases.IndexPageTest">
         <methods>
           <include name="afterSuite"/>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="e2etest"/>
+          <include name="verifyIndexPage"/>
           <include name="loadConfig"/>
         </methods>
-      </class> <!-- com.mystore.testcases.E2ETest -->
-      <class name="com.mystore.testcases.OrderPageTest">
-        <methods>
-          <include name="afterSuite"/>
-          <include name="setUp"/>
-          <include name="verifyProductPrice"/>
-          <include name="tearDown"/>
-          <include name="loadConfig"/>
-        </methods>
-      </class> <!-- com.mystore.testcases.OrderPageTest -->
-      <class name="com.mystore.testcases.AddToCartPageTest">
-        <methods>
-          <include name="afterSuite"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="verifyAddToCartPage"/>
-          <include name="loadConfig"/>
-        </methods>
-      </class> <!-- com.mystore.testcases.AddToCartPageTest -->
+      </class> <!-- com.mystore.testcases.IndexPageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

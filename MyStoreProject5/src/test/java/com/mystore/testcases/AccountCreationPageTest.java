@@ -31,6 +31,4 @@ public class AccountCreationPageTest extends BaseClass{
 		Assert.assertTrue(homepage.validateWishList2());
 		Assert.assertTrue(homepage.validateHistory2());
 	}
-	
-
 }

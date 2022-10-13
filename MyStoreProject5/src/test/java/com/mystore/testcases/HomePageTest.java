@@ -26,7 +26,4 @@ public class HomePageTest extends BaseClass{
 		Assert.assertTrue(homepage.validateHistory());
 		Assert.assertTrue(homepage.validateUser());
 	}
-	
-	
-
 }
