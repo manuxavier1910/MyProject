@@ -7,14 +7,14 @@
   <test thread-count="5" name="Test">
   <parameter name="browser" value="Chrome"></parameter>
     <classes>
-      <class name="com.mystore.testcases.LoginPageTest"/>
-      <class name="com.mystore.testcases.AccountCreationPageTest"/>
+      <!-- <class name="com.mystore.testcases.LoginPageTest"/>
+      <class name="com.mystore.testcases.AccountCreationPageTest"/> -->
       <class name="com.mystore.testcases.IndexPageTest"/>
-      <class name="com.mystore.testcases.SearchResultPageTest"/>
+      <!-- <class name="com.mystore.testcases.SearchResultPageTest"/>
       <class name="com.mystore.testcases.HomePageTest"/>
       <class name="com.mystore.testcases.OrderPageTest"/>
       <class name="com.mystore.testcases.AddToCartPageTest"/>
-      <class name="com.mystore.testcases.E2ETest"/>
+      <class name="com.mystore.testcases.E2ETest"/> -->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
